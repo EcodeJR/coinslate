@@ -1,6 +1,6 @@
 const Nav = () => {
     return ( 
-        <nav className="w-full h-fit flex items-center justify-between lg:px-10 py-5">
+        <nav className="w-full h-fit flex items-center justify-between lg:px-10 py-5 absolute top-0 left-0">
             <div className="flex items-center justify-around w-[40%] font-bold">
                 <h1 className="text-2xl font-bold mx-5">COINSLATE<span className="text-red-500">!</span></h1>
                 <a href="/">Explore</a>

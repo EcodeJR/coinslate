@@ -38,7 +38,7 @@ useEffect(() => {
         <section className="w-screen h-fit">
           {loading ? (<LoadingPage />):
             (
-              //main content
+              //main content starts
 
           <div className="w-screen min-h-screen relative bg-gray-900">
             
@@ -46,7 +46,6 @@ useEffect(() => {
             <div className='h-[300px] w-[300px] rounded-full bg-blue-500 absolute bottom-5 right-5 shadow-2xl shadow-blue-500'></div>
             <Home />
           </div>
-
               //main content ends
 
           )
